@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+.list {
+    width: 359px;
+    height: 640px;
+    background-color: black;
+    margin: auto;
+    border-radius: 20px;
+    margin: 5px auto;
+}
+
+.display {
+    width: 359px;
+    height: 211px;
+    border-bottom: 1px solid white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.display-number {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 64px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    color:  white;
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+    margin: 0;
+}
+
+.btn-style {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #6D6D6D;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 48px;
+    opacity: 1;
+}
+
+.btn-style:hover {
+    opacity: .8;
+    border: none;
+} 
+
+.button-list {
+    padding-top: 5px;
+    width: 100%;
+    min-height: 420px;
+    border-top: 1px solid white;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
